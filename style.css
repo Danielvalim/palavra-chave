@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-destaque: #9e2828;
-    --cor-gradiente-preto: linear-gradient(113deg, #000000 0%, #ad0000 44.96%, #ff0000 100%);
+    --cor-destaque: #774eb9;
+    --cor-gradiente-preto: linear-gradient(113deg, #7b4dd1 0%, #7d76e7 44.96%, #4b3480 100%);
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Montserrat;
 }
 
 body {
@@ -52,7 +52,7 @@ h1 {
 }
 
 #entrada-de-texto::placeholder {
-    color: #ff3b3b;
+    color: #828282;
     font-size: 2rem;
     font-weight: 400;
     line-height: normal;
